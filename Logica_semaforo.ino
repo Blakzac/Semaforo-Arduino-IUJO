@@ -45,5 +45,21 @@ void loop() {
   digitalWrite(8, LOW);
   digitalWrite(9, HIGH);  
   digitalWrite(6, HIGH);
+
+  // ==========================================
+  // FASE 3: SEMÁFORO 3 EN VERDE
+  // ==========================================
+  digitalWrite(5, LOW);   
+  digitalWrite(2, LOW);   
+  digitalWrite(3, HIGH);  
+  delay(5000);
+
+  // S3 cambia a Amarillo
+  digitalWrite(3, LOW);
+  digitalWrite(4, HIGH);
+  delay(2000);
+  digitalWrite(4, LOW);
+  digitalWrite(5, HIGH);  
+  digitalWrite(2, HIGH); 
 }
 

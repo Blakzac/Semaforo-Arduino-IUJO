@@ -29,5 +29,21 @@ void loop() {
   digitalWrite(12, LOW);
   digitalWrite(13, HIGH); 
   digitalWrite(10, HIGH); 
+
+  // ==========================================
+  // FASE 2: SEMÁFORO 2 EN VERDE
+  // ==========================================
+  digitalWrite(9, LOW);   
+  digitalWrite(6, LOW);   
+  digitalWrite(7, HIGH);  
+  delay(5000);
+
+  // S2 cambia a Amarillo
+  digitalWrite(7, LOW);
+  digitalWrite(8, HIGH);
+  delay(2000);
+  digitalWrite(8, LOW);
+  digitalWrite(9, HIGH);  
+  digitalWrite(6, HIGH);
 }
 

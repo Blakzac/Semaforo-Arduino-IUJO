@@ -1,4 +1,4 @@
-<h1>Semaforo Arduino</h1>
+<h1>Semaforo Arduino 🔴🟡🟢🔵</h1>
 Integrantes del Equipo:
 <ol>
   <li>Anthony Tirado - 31271732</li>

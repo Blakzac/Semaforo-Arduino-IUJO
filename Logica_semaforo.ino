@@ -1,3 +1,12 @@
+// C++ code
+//
+void setup() {
+  // Configuramos todos los pines del 2 al 13 como salida
+  for (int i = 2; i <= 13; i++) {
+    pinMode(i, OUTPUT);
+  }
+}
+
 void loop() {
   // ==========================================
   // FASE 1: SEMÁFORO 1 EN VERDE
@@ -21,3 +30,4 @@ void loop() {
   digitalWrite(13, HIGH); 
   digitalWrite(10, HIGH); 
 }
+
